@@ -1,0 +1,65 @@
+body{
+
+   background: linear-gradient(135deg,#040226,#000000);
+    height: 100vh;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
+    font-family: Arial;
+    
+}
+
+.head{
+    font-size:65px;
+    background: linear-gradient(to right, #0cb1e3, #000000);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;    
+    
+}
+
+    
+
+.contain{
+   
+    border: 1px solid rgb(90, 88, 88);
+    border-radius:25px ;
+    padding: 40px 40px;
+    box-shadow: 0px 15px 20px rgb(65, 62, 62);
+     height: 40%;
+     background-color: rgb(10, 11, 25);
+}
+.skills-grid{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.skill{
+    background: rgba(14,112,216,0.15);
+    background: linear-gradient(to right, #02adcb, #6c039d);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    border: 1px solid rgb(14,112,216);
+    padding: 12px 25px;
+    border-radius: 30px;
+    font-size: 35px;
+    transition: 0.3s;
+}
+
+.skill:hover{
+    background: linear-gradient(to right, #f20665, #710698);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    transform: translateY(-5px);
+}
